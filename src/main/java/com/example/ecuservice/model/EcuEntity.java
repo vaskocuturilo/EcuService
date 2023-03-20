@@ -1,4 +1,4 @@
-package com.example.ecuservice.entity;
+package com.example.ecuservice.model;
 
 import com.example.ecuservice.enumiration.Status;
 import jakarta.persistence.*;
