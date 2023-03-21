@@ -3,9 +3,11 @@ package com.example.ecuservice.model;
 import com.example.ecuservice.enumiration.Status;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotEmpty;
+import lombok.Data;
 
 @Entity
 @Table(name = "ecu_table")
+@Data
 public class EcuEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
